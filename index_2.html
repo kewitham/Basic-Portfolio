@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>My Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style_2.css">
 </head>
 <body>
 	<div class="topbar">
@@ -14,11 +14,31 @@
 		</ul>
 	</div>
 	<div class="border"></div>
-	<div class="aboutme">
-		<h1 class="aboutheading">About Me</h1>
-		<section class="aboutborder"></section>
-		<img src="http://i.imgur.com/708fntV.jpg" width="150" height="200" id=me>
-		<p class="about">Born and raised in Chicago, it was my sense of adventure and ambition that motivated me to move to Los Angeles last year. I am currently employed as an administrative manager at an architecture firm while pursuing my interest in web programming. I am excited about the opportunities this field will give me to be creative and immerse myself the constantly evolving web landscape. When I am not at work or class I can be found enjoying live music, exploring the many hiking trails in and around Los Angeles, and watching an embarrassing amount of cooking competition shows. I hope you enjoy my portfolio!</p>
+	<div class="contact">
+		<h1 class="contactheading">Contact</h1>
+		<section class="contactborder"></section>
+		<div id="form-main">
+  		<div id="form-div">
+   		<form class="form" id="form1">
+      		 <p class="name">
+      			<p>Name</p>
+      				<input name="Name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="John Smith" id="name" />
+      			</p>
+      		<p class="email">
+      			<p>Email</p>
+				<input name="Email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="example@gmail.com" />
+			</p>
+			<p class="message">
+				<p>Message</p>
+				<textarea name="Message" class="validate[required,length[6,300]] feedback-input" id="comment"></textarea>
+			</p>  
+	      <div class="submit">
+	        <input type="Submit" value="Submit" class="button"/>
+	        <div class="ease"></div>
+	      </div>
+    	</form>
+  	</div>
+	</div>
 	</div>
 	<div class="connect">
 		<h2>Connect with Me</h2>

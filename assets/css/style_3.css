@@ -66,13 +66,13 @@ div.topbar{
 	margin:0;
 	padding:0;
 }
-.aboutheading{
+.portfolioheading{
 	color:#4aaaa5;
 	clear: both;
 	margin-left:5px;
 	padding-top: 4px;
 }
-.about{
+.portfolio{
 	color:#99a5c0;
 	padding-right: 5px
 	margin: 10px;
@@ -80,7 +80,7 @@ div.topbar{
 	font-size:16px;
 	width:650px;
 }
-section.aboutborder{
+section.portfolioborder{
 	border-bottom-style: solid;
 	border-bottom-color: #dddddd;
 	border-bottom-width: medium;
@@ -91,34 +91,130 @@ section.aboutborder{
 	margin-right: 5px;
 	margin-left: 5px;
 	}
-div.aboutme{
+div.portfolio{
 	float:left;
 	clear:left;
 	margin-right: 5px;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	width:660px;
-	height:400px;
+	height:750px;
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: thin;
 	border-color:#dddddd;
 	background: #ffffff;
 }
-h1.aboutheading{
+h1.portfolioheading{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding-bottom: 5px;
 }
-#me{
-	float:left;
-	padding-right: 15px;
-	margin-left: 5px;
-	padding-top: 5px;
 
+p.portfolio{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #4aaaa5;
+	color:white;
+	padding: 5px;
+	width: 100px;
+}
+div.portfolioleft{
+	float:left;
+	clear:left;
+	margin-left: 70px;
+}
+div.leftbox1{
+	height:200px;
+	width:200px;
+	float:left;
+	clear:left;
+	box-sizing: border-box;
+	margin:5px;
+	background-image: url(http://petapixel.com/assets/uploads/2013/03/pantonepairings-2.jpg);
+	background-size:200px 200px;
+}
+.leftbox1 p{
+	width:190px;
+	text-align: center;
+	margin-top: 145px;
+	margin-right:50px;
+	margin-left: 0px;
+}
+div.leftbox2{
+	height:200px;
+	width:200px;
+	float:left;
+	clear:left;
+	box-sizing: border-box;
+	margin:5px;
+	background-image:url(http://petapixel.com/assets/uploads/2013/03/pantonepairings-7.jpg);
+	background-size:200px 200px;
+}
+.leftbox2 p{
+	width:190px;
+	text-align: center;
+	margin-top: 145px;
+	margin-right:50px;
+	margin-left: 0px;
+}
+div.leftbox3{
+	height:200px;
+	width:200px;
+	float:left;
+	clear:left;
+	box-sizing: border-box;
+	margin:5px;
+	background-image:url(https://s-media-cache-ak0.pinimg.com/736x/e9/c8/c1/e9c8c139795456d0dbe7ad1c55ceec3b.jpg);
+	background-size:200px 200px;
+}
+.leftbox3 p{
+	width:190px;
+	text-align: center;
+	margin-top: 145px;
+	margin-right:50px;
+	margin-left: 0px;
+}
+div.rightbox1{
+	height:200px;
+	width:200px;
+	float:right;
+	clear:right;
+	box-sizing: border-box;
+	margin:5px;
+	background-image:url(http://laughingsquid.com/wp-content/uploads/saltpepper.jpg);
+	background-size:200px 200px;
+}
+div.portfolioright{
+	float:right;
+	clear:right;
+	margin-right: 70px;
+}
+.rightbox1 p{
+	width:190px;
+	text-align: center;
+	margin-top: 145px;
+	margin-right:50px;
+	margin-left: 0px;
+}
+div.rightbox2{
+	height:200px;
+	width:200px;
+	float:right;
+	clear:right;
+	box-sizing: border-box;
+	margin:5px;
+	background-image:url(http://www.collater.al/wp-content/uploads/2013/03/pantone_pairings_food_photography_formato_Instagram_3-560x420.jpg);
+	background-size:200px 200px;
+}
+.rightbox2 p{
+	width:190px;
+	text-align: center;
+	margin-top: 145px;
+	margin-right:50px;
+	margin-left: 0px;
 }
 div.connect{
 	float:right;
